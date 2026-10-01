@@ -147,8 +147,8 @@ vehicle_insurance_mlops/
 ## 📧 Contact
 
 **Author:** Abhishek Choudhary. 
-📬 [LinkedIn](https://www.linkedin.com/in/abhishek-c-1028i/)  
-📁 [GitHub](https://github.com/AbhishekChfin)
+- 📬 [LinkedIn](https://www.linkedin.com/in/abhishek-c-1028i/)  
+- 📁 [GitHub](https://github.com/AbhishekChfin)
 
 ---
 
