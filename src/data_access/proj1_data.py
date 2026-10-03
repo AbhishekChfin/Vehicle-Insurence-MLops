@@ -39,7 +39,7 @@ class Proj1Data:
                 collection = db[collection_name]
 
             # Fetch all data from the collection
-            data = list(collection.find())
+            data = list(collection.find({'dataset':'train'}))
             logging.info(f"Fetched {len(data)} records from the collection '{collection_name}'.")
 
             # Convert to DataFrame
@@ -49,6 +49,10 @@ class Proj1Data:
             if "_id" in df.columns:
                 df = df.drop(columns=["_id"], axis=1)
                 logging.info("Dropped '_id' column from DataFrame.")
+            if "dataset" in df.columns:
+                df = df.drop(columns=["dataset"], axis=1)
+                logging.info("Dropped 'dataset' column from Dataframe")
+            
 
             # Replace placeholder values with NaN
             df.replace({"na": np.nan}, inplace=True)
