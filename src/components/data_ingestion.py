@@ -69,12 +69,3 @@ class DataIngestion:
             return data_ingestion_artifact
         except Exception as e:
             raise MyException(e, sys) from e
-
-
-
-
-
-
-
-
-            
