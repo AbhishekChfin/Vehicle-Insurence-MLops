@@ -4,7 +4,7 @@
 
 This project showcases a professional, end-to-end **Machine Learning Operations (MLOps)** pipeline for predicting **vehicle insurance purchase intent**.
 
-We’ve built a robust and scalable system that automates every step — from data ingestion to model deployment — using modern MLOps tools and **AWS cloud services**. The goal is to provide a solid foundation for a **production-ready ML solution**.
+I’ve built a robust and scalable system that automates every step — from data ingestion to model deployment — using modern MLOps tools and **AWS cloud services**. The goal is to provide a solid foundation for a **production-ready ML solution**.
 
 ---
 
@@ -31,7 +31,7 @@ We’ve built a robust and scalable system that automates every step — from da
   - `Model Trainer`
   - `Model Evaluation`
   - `Model Pusher`
-- **Data Transformation**: Includes preprocessing, feature engineering, and class balancing using **SMOTEENN**.
+- **Data Transformation**: Includes preprocessing, feature engineering, and class balancing using **SMOTE**.
 - **Model Training**: Trains a `RandomForestClassifier`, serializes the model for later use.
 - **Model Evaluation**: Compares new models with the latest one in production (from S3). Promotes only better-performing models.
 
@@ -70,7 +70,7 @@ http://18.212.216.84:8000
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/rahuljat27/Vehicle_Insurence_MLOPS.git
+git clone https://github.com/AbhishekChfin/Vehicle-Insurence-MLops
 cd Vehicle_Insurence_MLOPS
 ```
 
