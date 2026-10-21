@@ -1,5 +1,14 @@
 # 🚗 Vehicle Insurance Prediction MLOps Project
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-S3-232F3E?logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?logo=githubactions&logoColor=white)
+
+![Status](https://img.shields.io/badge/Status-Completed-green)
+
 ##  Project Overview
 
 This project showcases a professional, end-to-end **Machine Learning Operations (MLOps)** pipeline for predicting **vehicle insurance purchase intent**.
