@@ -25,9 +25,9 @@ class MongoDBClient:
     def __init__(self, database_name: str = DATABASE_NAME):
         try:
             # Fetch MongoDB URL from environment
-            mongodb_url = os.getenv("MONGODB_URL_KEY")
+            mongodb_url = os.getenv("MONGODB_URL")
             if not mongodb_url:
-                raise ValueError(f"Environment variable  is not set.")
+                raise ValueError(f"Environment variable is not set.")
             
             # Initialize the MongoDB client only once
             if MongoDBClient.client is None:
